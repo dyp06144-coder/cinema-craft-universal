@@ -1,0 +1,961 @@
+{
+  "format": 2,
+  "edition": "通用中文改编版",
+  "version": "1.0.0-zh",
+  "style_count": 59,
+  "source_revision": "18e0b276406a1ea1568f5a1562f43bc31e46bc75",
+  "checksum_encoding": "UTF-8",
+  "styles": {
+    "caption-news": {
+      "name_zh": "字幕新闻",
+      "use_cases_zh": "社会新闻、报告解说、数据短片",
+      "file": "references/styles/caption-news.md",
+      "sha256": "6732e3da5ba7dd43685533a20f6edff607561c6e508f29f77b9cf28acb44b0cd",
+      "source_sha256": "ba4c0bb5dd13e49c2c2b520af5e42a28112b36354dc445d0f6ade3727b458fd2",
+      "source_parts": [
+        [
+          "references/style-specs-01.md",
+          67,
+          17055
+        ]
+      ]
+    },
+    "newsreel": {
+      "name_zh": "1920年代有声新闻片",
+      "use_cases_zh": "历史、时代风潮、周年纪念",
+      "file": "references/styles/newsreel.md",
+      "sha256": "1c62d410125cbf2a74e6dcc309eda60aa78f53cf1a0a0c68dc5228ab078df7e6",
+      "source_sha256": "0f82c1423d2463dfc2700b23dff9ec183f596724a4820757e189c6fa5225e600",
+      "source_parts": [
+        [
+          "references/style-specs-01.md",
+          17082,
+          28072
+        ],
+        [
+          "references/style-specs-02.md",
+          63,
+          6623
+        ]
+      ]
+    },
+    "countdown": {
+      "name_zh": "现场倒计时分屏",
+      "use_cases_zh": "发布会、倒计时、直播事件",
+      "file": "references/styles/countdown.md",
+      "sha256": "cc1a46840f2821cac4860ab3811f9afc03acaaa6aef6699b421e358536065785",
+      "source_sha256": "867cca6e0c9bb0d6fb914cc4e9a2e295623ecd345fda9bd00bc362ff233f220f",
+      "source_parts": [
+        [
+          "references/style-specs-02.md",
+          6651,
+          23531
+        ]
+      ]
+    },
+    "city-symphony": {
+      "name_zh": "城市延时交响",
+      "use_cases_zh": "城市影片、音乐蒙太奇、开场",
+      "file": "references/styles/city-symphony.md",
+      "sha256": "454370773cae462e9941e254016e4291d1603a6a29d581f4daaca50b62910c7d",
+      "source_sha256": "8b78d2b08cadb045ac1649cade1e5274fba935b1177c64c176e7567c6e8b31e1",
+      "source_parts": [
+        [
+          "references/style-specs-02.md",
+          23563,
+          29546
+        ],
+        [
+          "references/style-specs-03.md",
+          68,
+          12340
+        ]
+      ]
+    },
+    "visual-investigation": {
+      "name_zh": "视觉调查",
+      "use_cases_zh": "重建、事实核查、事件报告",
+      "file": "references/styles/visual-investigation.md",
+      "sha256": "9194d965f3f7b53722643590361c7383f359d7d02b967ad8ee4f551c774355c2",
+      "source_sha256": "9b39ebaa00c3d77ae544d7453e99b79caf4dfaae1d37798b1f995a5578aac30b",
+      "source_parts": [
+        [
+          "references/style-specs-03.md",
+          12379,
+          29157
+        ],
+        [
+          "references/style-specs-04.md",
+          75,
+          2102
+        ]
+      ]
+    },
+    "kino-montage": {
+      "name_zh": "构成主义蒙太奇",
+      "use_cases_zh": "工业历史、里程碑、集体行动",
+      "file": "references/styles/kino-montage.md",
+      "sha256": "e73e5795c3b98bcee4842074c4fa537e48c458291184ec7a41e02a901422ec32",
+      "source_sha256": "8c63deefda22d4677d286ddfffb243ce6385dfa7ab56fbc493705fe13908f204",
+      "source_parts": [
+        [
+          "references/style-specs-04.md",
+          2133,
+          22088
+        ]
+      ]
+    },
+    "telestrator": {
+      "name_zh": "体育战术标绘",
+      "use_cases_zh": "赛事分析、复盘、教学",
+      "file": "references/styles/telestrator.md",
+      "sha256": "2f2c17b90fd812c605570b647debfea85b80e27688573c660d7e0350a5de5663",
+      "source_sha256": "7289027728dc5e1b6d095b7c7bc7806790bb579934c81682265c0c1b4897a3d0",
+      "source_parts": [
+        [
+          "references/style-specs-04.md",
+          22118,
+          28748
+        ],
+        [
+          "references/style-specs-05.md",
+          66,
+          10219
+        ]
+      ]
+    },
+    "news-package": {
+      "name_zh": "电视新闻包装",
+      "use_cases_zh": "新闻汇总、简报、市场动态",
+      "file": "references/styles/news-package.md",
+      "sha256": "a1f6d1b487ff178b9da8d32ae135b9b9754b7150710295891a7ff68caf07316e",
+      "source_sha256": "6f9d1b6a04878229260ea542fe71f2b77c560ed8e40df68b68e80ac4e21710ce",
+      "source_parts": [
+        [
+          "references/style-specs-05.md",
+          10250,
+          27391
+        ],
+        [
+          "references/style-specs-06.md",
+          67,
+          3259
+        ]
+      ]
+    },
+    "satellite-briefing": {
+      "name_zh": "卫星图像简报",
+      "use_cases_zh": "气候、新闻解说、地理",
+      "file": "references/styles/satellite-briefing.md",
+      "sha256": "0942e11c0d80b047a70cc0930a06cad500f6fdc79f7efa2222398f892588c829",
+      "source_sha256": "39fec0c7fda13600de04f1a9631ca636dc8850429033c1f65bb6d3283ec2988d",
+      "source_parts": [
+        [
+          "references/style-specs-06.md",
+          3296,
+          16417
+        ]
+      ]
+    },
+    "briefing-board": {
+      "name_zh": "工程简报板",
+      "use_cases_zh": "工程、方案比较、项目简报",
+      "file": "references/styles/briefing-board.md",
+      "sha256": "3ad6a7e36f155905ec37a8c4d387637865ff4cd19407371011bdfd2312f00251",
+      "source_sha256": "44669da808da4ed37e2a4a0f6e5d2b23008775a3c4870add04641d714e9f323d",
+      "source_parts": [
+        [
+          "references/style-specs-06.md",
+          16450,
+          29573
+        ],
+        [
+          "references/style-specs-07.md",
+          69,
+          195
+        ]
+      ]
+    },
+    "lidar-survey": {
+      "name_zh": "激光点云测绘",
+      "use_cases_zh": "遗产、环境、场地调查",
+      "file": "references/styles/lidar-survey.md",
+      "sha256": "9a96bbd9a7742916fe753128f94d3b40a503ecc5412114386ee48def7d03443e",
+      "source_sha256": "d1b60fda2793932286372e7cf68d62af5723bba14c37e9a437639ea57b1a310d",
+      "source_parts": [
+        [
+          "references/style-specs-07.md",
+          226,
+          13328
+        ]
+      ]
+    },
+    "white-model": {
+      "name_zh": "白模投影",
+      "use_cases_zh": "城市规划、展览、城市数据",
+      "file": "references/styles/white-model.md",
+      "sha256": "0bb0a8542530063400aba4c753e459b2010f8c14097ca70312857b94f445dc38",
+      "source_sha256": "02b6423a69ac5a30322997ec9523bd6b6f776b7c8cf14f249eeb996b9d21e2c2",
+      "source_parts": [
+        [
+          "references/style-specs-07.md",
+          13358,
+          26882
+        ]
+      ]
+    },
+    "data-physical": {
+      "name_zh": "数据实体化",
+      "use_cases_zh": "年报、投资者演示、能源数据",
+      "file": "references/styles/data-physical.md",
+      "sha256": "d160ee8ddf8e3958bc13ea40460ae06babdc307fceeca352c76c8f639135ee66",
+      "source_sha256": "2d2e6685b0dcf8a1e2ba2ff904ab02d51aede1f5dbb246fd2f6e81c8d146f208",
+      "source_parts": [
+        [
+          "references/style-specs-07.md",
+          26914,
+          28958
+        ],
+        [
+          "references/style-specs-08.md",
+          68,
+          11395
+        ]
+      ]
+    },
+    "teardown": {
+      "name_zh": "产品爆炸拆解",
+      "use_cases_zh": "硬件发布、产品页、规格解说",
+      "file": "references/styles/teardown.md",
+      "sha256": "1ecd76ed3a5d5e4578a3ce46e3f2111e4dbdec809848558102f00f6f91f3c2b2",
+      "source_sha256": "90df05a02a3d33add58e0dd99bef19ca20ea16b10390b3c2350d8483106922ee",
+      "source_parts": [
+        [
+          "references/style-specs-08.md",
+          11422,
+          24964
+        ]
+      ]
+    },
+    "microscope": {
+      "name_zh": "显微镜故事",
+      "use_cases_zh": "生物医学、材料、护肤科学",
+      "file": "references/styles/microscope.md",
+      "sha256": "debef0020f1115910f130329b086fff4e37740ca3f2f44d1977b505953e61a3a",
+      "source_sha256": "63040631bdc28a3c7f8cf05e2e8523969becd0267741e00dd3e171c22be16e92",
+      "source_parts": [
+        [
+          "references/style-specs-08.md",
+          24993,
+          29538
+        ],
+        [
+          "references/style-specs-09.md",
+          65,
+          8647
+        ]
+      ]
+    },
+    "archive-lighttable": {
+      "name_zh": "档案灯箱台",
+      "use_cases_zh": "品牌历史、档案故事、博物馆",
+      "file": "references/styles/archive-lighttable.md",
+      "sha256": "b54c224748fcf3b318d395b00269e965691bca646eef093453b6ac33ced6868c",
+      "source_sha256": "2f18ac9a42822b7a9941866c42b0642e5417dea5431d61f141f6e11b29c1ec14",
+      "source_parts": [
+        [
+          "references/style-specs-09.md",
+          8684,
+          21980
+        ]
+      ]
+    },
+    "crayon-book": {
+      "name_zh": "蜡笔绘本",
+      "use_cases_zh": "绘本、睡前故事、儿童学习",
+      "file": "references/styles/crayon-book.md",
+      "sha256": "d5564f5eb51de8be0a0db52a980a7f4648ba39e5fff9506198d247cc07870936",
+      "source_sha256": "ba558478fe519fa6777fe28fa7d1980117297c7beb6fe2e366ef6f00688aa175",
+      "source_parts": [
+        [
+          "references/style-specs-09.md",
+          22010,
+          28591
+        ],
+        [
+          "references/style-specs-10.md",
+          66,
+          4762
+        ]
+      ]
+    },
+    "watercolor": {
+      "name_zh": "水彩笔触",
+      "use_cases_zh": "自然、旅行、科学解说",
+      "file": "references/styles/watercolor.md",
+      "sha256": "549a7fe24ae72623c3174eb204bb28bfb9abb49c3f5f17950f4ec675476563b3",
+      "source_sha256": "662d57568408a7c82ef8f64980ca85798b8bb239df3dc3a6715283d7f4555ef0",
+      "source_parts": [
+        [
+          "references/style-specs-10.md",
+          4791,
+          15832
+        ]
+      ]
+    },
+    "ink-wash": {
+      "name_zh": "中国水墨",
+      "use_cases_zh": "武侠、文化品牌、诗意影片",
+      "file": "references/styles/ink-wash.md",
+      "sha256": "8f1c7d3e715603b27673e2d8047bff52e5d4c2d98c0e03111b569ebebe9ac84a",
+      "source_sha256": "5d71598f0b9cf4034c6461956b0d8bd63bd33750b4045376044f0d956b01d645",
+      "source_parts": [
+        [
+          "references/style-specs-10.md",
+          15859,
+          27041
+        ]
+      ]
+    },
+    "impasto": {
+      "name_zh": "厚涂油画",
+      "use_cases_zh": "音乐视频、艺术、情感广告",
+      "file": "references/styles/impasto.md",
+      "sha256": "9339b424d0543a8dcbb4b96f3e4c43ecc8b12ede1ebbf4184a295767ce59bf50",
+      "source_sha256": "38a0dcb2808c2ff03ef721c1319b9145438b4074ed37ab7a09dcf20b7268e062",
+      "source_parts": [
+        [
+          "references/style-specs-10.md",
+          27067,
+          28696
+        ],
+        [
+          "references/style-specs-11.md",
+          62,
+          10401
+        ]
+      ]
+    },
+    "one-line": {
+      "name_zh": "单线绘画",
+      "use_cases_zh": "品牌故事、人生节点、极简广告",
+      "file": "references/styles/one-line.md",
+      "sha256": "19d0089fb74fbd9be2cfa8c15128bd9bac34bd551c063452974ad7308562fac4",
+      "source_sha256": "69d26cb06f48ab6b03c12a76c2390d0945cdaddc38bc109b7d5e292b9af1399b",
+      "source_parts": [
+        [
+          "references/style-specs-11.md",
+          10428,
+          21755
+        ]
+      ]
+    },
+    "whiteboard": {
+      "name_zh": "白板解说",
+      "use_cases_zh": "知识解说、课程、科学",
+      "file": "references/styles/whiteboard.md",
+      "sha256": "5b384443440c708725b751a85e73053d0484daab3098115268c074a33fcc8cc3",
+      "source_sha256": "19f66326257bcafb8aca18af3e209d1fee31d9e23902ce1708bbb606cbf4b718",
+      "source_parts": [
+        [
+          "references/style-specs-11.md",
+          21784,
+          28403
+        ],
+        [
+          "references/style-specs-12.md",
+          65,
+          5058
+        ]
+      ]
+    },
+    "urban-sketch": {
+      "name_zh": "钢笔淡彩城市速写",
+      "use_cases_zh": "城市旅行、建筑、生活品牌",
+      "file": "references/styles/urban-sketch.md",
+      "sha256": "049b30c80a897921afb63772c4dac824b93a8cd4815ca2f9474dfc8f4918427c",
+      "source_sha256": "2baf1a19f31b06e55d66d62e4c3449c7a2686c689190976f3e3d0cbdce2faa9a",
+      "source_parts": [
+        [
+          "references/style-specs-12.md",
+          5089,
+          16805
+        ]
+      ]
+    },
+    "shadow-puppet": {
+      "name_zh": "皮影戏",
+      "use_cases_zh": "神话民俗、文化遗产、节庆",
+      "file": "references/styles/shadow-puppet.md",
+      "sha256": "532d14691dbd437420a2db06f55affcefa58cc57741a0a2ea380a406a81a2d73",
+      "source_sha256": "8be075a8262d5a3deea9b05684d8a9abdc1e54c0d90649bf14609ecb4106c3af",
+      "source_parts": [
+        [
+          "references/style-specs-12.md",
+          16837,
+          29548
+        ]
+      ]
+    },
+    "ukiyoe": {
+      "name_zh": "浮世绘",
+      "use_cases_zh": "旅行、日本文化、诗歌",
+      "file": "references/styles/ukiyoe.md",
+      "sha256": "1e26ccdaea7a9ce63642386b35cf423cb36adb2956cc266073446efca6451d65",
+      "source_sha256": "218c48a204f9034d1c2fb7f11698b4834f1faee1ca68c9e336f3d6ab992ff2e4",
+      "source_parts": [
+        [
+          "references/style-specs-13.md",
+          61,
+          12442
+        ]
+      ]
+    },
+    "papercut-red": {
+      "name_zh": "红纸剪纸",
+      "use_cases_zh": "春节、节庆祝福、民间故事",
+      "file": "references/styles/papercut-red.md",
+      "sha256": "7fb389020005ef22102f5e12c01c227e4fe81f9c6a73ad67cddaf1bd74f01a8a",
+      "source_sha256": "65e317d83335e0cb34696b643e31ad9e46fb0bb93fd748c2e21d74358aea61ec",
+      "source_parts": [
+        [
+          "references/style-specs-13.md",
+          12473,
+          24858
+        ]
+      ]
+    },
+    "paper-lantern": {
+      "name_zh": "剪纸光箱",
+      "use_cases_zh": "节日、礼品品牌、文化故事",
+      "file": "references/styles/paper-lantern.md",
+      "sha256": "9af4bd1c953041a9724047f269be88e85c25bb8d4027b932fc50101501366fa1",
+      "source_sha256": "6f3001ad45657262384b3012f441883ef5ac9c558b82d23e503d14e2f672ac91",
+      "source_parts": [
+        [
+          "references/style-specs-13.md",
+          24890,
+          28851
+        ],
+        [
+          "references/style-specs-14.md",
+          68,
+          8154
+        ]
+      ]
+    },
+    "risograph": {
+      "name_zh": "孔版速印",
+      "use_cases_zh": "独立品牌、小志、生活方式",
+      "file": "references/styles/risograph.md",
+      "sha256": "96366efa08e194565262b8a7015e43ae83336f6daea227a0a003c92f22c98178",
+      "source_sha256": "c3d85c91a81b0afde091d964482749482adc66c12730afe124708f7b18b331a6",
+      "source_parts": [
+        [
+          "references/style-specs-14.md",
+          8182,
+          20160
+        ]
+      ]
+    },
+    "halftone-dossier": {
+      "name_zh": "半色调档案",
+      "use_cases_zh": "幽默、宠物内容、社交短片",
+      "file": "references/styles/halftone-dossier.md",
+      "sha256": "f61f199b86cbce33911e7e43979d3bd41744c0c283bb97a0e2bfdb2ade168930",
+      "source_sha256": "71b4b8f089836d95f6bd8fc3719ae184cbf2be4a04ecd935c6d55d89a5bb558d",
+      "source_parts": [
+        [
+          "references/style-specs-14.md",
+          20195,
+          28810
+        ],
+        [
+          "references/style-specs-15.md",
+          71,
+          3811
+        ]
+      ]
+    },
+    "woodcut": {
+      "name_zh": "木刻版画",
+      "use_cases_zh": "民间故事、工艺品牌、图书预告",
+      "file": "references/styles/woodcut.md",
+      "sha256": "51ebe77dd8f2afaa586fa979ec0af55d5a4b3598bf20bf602b0391b2ef604c1e",
+      "source_sha256": "b96fda6eeac038137310cc0766d979c8d8a5f3ff6acd87bada5aa50d5136a6a0",
+      "source_parts": [
+        [
+          "references/style-specs-15.md",
+          3837,
+          15964
+        ]
+      ]
+    },
+    "engraving": {
+      "name_zh": "铜版雕刻",
+      "use_cases_zh": "博物馆、科学解说、品牌历史",
+      "file": "references/styles/engraving.md",
+      "sha256": "efdceab01de89964e1955f060bbbae8b47ea7b7beeec68fb85712ca70bd10c5e",
+      "source_sha256": "0c6816b8b47163d158ae0ea668feecf53dcbef9d1310e27b9e797d9b9e7aac0d",
+      "source_parts": [
+        [
+          "references/style-specs-15.md",
+          15992,
+          28191
+        ]
+      ]
+    },
+    "silkscreen-poster": {
+      "name_zh": "丝网旅行海报",
+      "use_cases_zh": "目的地指南、旅游、活动海报",
+      "file": "references/styles/silkscreen-poster.md",
+      "sha256": "1c6761674ab1fcc814084648daff6f5061cabf1c8bf788ff33fb9b1c73223b4d",
+      "source_sha256": "a8b3792efb1476b78493f86a033221b27f60c1927463cc435f8816e4d9eda148",
+      "source_parts": [
+        [
+          "references/style-specs-15.md",
+          28227,
+          29305
+        ],
+        [
+          "references/style-specs-16.md",
+          72,
+          11919
+        ]
+      ]
+    },
+    "swiss-motion": {
+      "name_zh": "瑞士平面动态图形",
+      "use_cases_zh": "品牌识别、活动、设计教育",
+      "file": "references/styles/swiss-motion.md",
+      "sha256": "6554a4920d8fb68354d3a8cb6e7253ea48e5ebe19125087f9f76c1dda3bdc312",
+      "source_sha256": "14ddeb6dc495e691a220497069a2ee4827d820f9ee7a3173de5846489ef41f57",
+      "source_parts": [
+        [
+          "references/style-specs-16.md",
+          11950,
+          22604
+        ]
+      ]
+    },
+    "spy-titles": {
+      "name_zh": "1960年代谍战片头",
+      "use_cases_zh": "片头、活动开场、预告",
+      "file": "references/styles/spy-titles.md",
+      "sha256": "88c093064da205e16b616f1ab5220b178762f1816d0eedb9515c715289266ae3",
+      "source_sha256": "ea6e9e9073af43ef0bb860e368f60b16ec32a91668386115a142907d92cb1f75",
+      "source_parts": [
+        [
+          "references/style-specs-16.md",
+          22633,
+          28871
+        ],
+        [
+          "references/style-specs-17.md",
+          65,
+          5186
+        ]
+      ]
+    },
+    "art-deco": {
+      "name_zh": "装饰艺术",
+      "use_cases_zh": "奢华酒店、晚会、邀请",
+      "file": "references/styles/art-deco.md",
+      "sha256": "b65041ad8ce66982f04d84ae9d748bd4df03ff8b75f8b74a7009e4d9740fc1a8",
+      "source_sha256": "d73b30c0fa6d153487549d32d8c6c599733cf5e7576badec862a12da6d284761",
+      "source_parts": [
+        [
+          "references/style-specs-17.md",
+          5213,
+          17354
+        ]
+      ]
+    },
+    "blueprint": {
+      "name_zh": "工程蓝图",
+      "use_cases_zh": "工程、硬件发布、科技解说",
+      "file": "references/styles/blueprint.md",
+      "sha256": "c7117cc621438468f42274f1020402a7e4497a07d664f19d7624099bd3f35f5d",
+      "source_sha256": "de01fc7fcb38b17b58eb017c9cdbcb36b9242b029435a33587614c93088e1717",
+      "source_parts": [
+        [
+          "references/style-specs-17.md",
+          17382,
+          29524
+        ],
+        [
+          "references/style-specs-18.md",
+          64,
+          183
+        ]
+      ]
+    },
+    "stained-glass": {
+      "name_zh": "彩色玻璃",
+      "use_cases_zh": "传说、历史文化、节日故事",
+      "file": "references/styles/stained-glass.md",
+      "sha256": "931ae76e00473c9f1f1f49c54b76613a235eda426dbaac1fd12dfefb4df9a203",
+      "source_sha256": "0f6551bd109a4127404068aa1e75f18f16b58c80b486c23480b3d193e597b060",
+      "source_parts": [
+        [
+          "references/style-specs-18.md",
+          215,
+          12112
+        ]
+      ]
+    },
+    "pictogram-motion": {
+      "name_zh": "图形符号运动",
+      "use_cases_zh": "体育、视觉识别、活动开场",
+      "file": "references/styles/pictogram-motion.md",
+      "sha256": "04152b63d9bfc40a9d048985720da1f5f386b8ccf6960a2574f79b813d53c6b3",
+      "source_sha256": "e982606f3d7d132d320abdc1a74c226b1e0642b664a0c41582bc76fec646da1a",
+      "source_parts": [
+        [
+          "references/style-specs-18.md",
+          12147,
+          24195
+        ]
+      ]
+    },
+    "ascii-crt": {
+      "name_zh": "ASCII显像管终端",
+      "use_cases_zh": "开发工具、科幻、科技品牌",
+      "file": "references/styles/ascii-crt.md",
+      "sha256": "a3bcc14a44f710568cc0960268974bf8c1b0dc4d717353eb0e2e1a7b0a0d4a96",
+      "source_sha256": "cbe0b8957c785a165f85ccb3b8eba61c30c0462b32983db6a16c76046a2bb333",
+      "source_parts": [
+        [
+          "references/style-specs-18.md",
+          24223,
+          29521
+        ],
+        [
+          "references/style-specs-19.md",
+          64,
+          6914
+        ]
+      ]
+    },
+    "dataviz": {
+      "name_zh": "数据叙事",
+      "use_cases_zh": "数据新闻、报告、气候科学",
+      "file": "references/styles/dataviz.md",
+      "sha256": "935b8df07553a780de698c056bbf35b88d1a53b1eab17ec59169052979f0de78",
+      "source_sha256": "e94013d5a7c548c8844598a671ff0b49bc78770696cbca0d8d00846336f3c67f",
+      "source_parts": [
+        [
+          "references/style-specs-19.md",
+          6940,
+          18308
+        ]
+      ]
+    },
+    "iso-infographic": {
+      "name_zh": "等距信息图",
+      "use_cases_zh": "流程、供应链、年报",
+      "file": "references/styles/iso-infographic.md",
+      "sha256": "4e7ea283145b5fa441d6469936e6d3c0ee058205034661636aad7c226e5deb79",
+      "source_sha256": "a3bf89913255043ff2c8616bff9be9f9536efe1eb7a3b98c755cb4189bd7dff1",
+      "source_parts": [
+        [
+          "references/style-specs-19.md",
+          18342,
+          29433
+        ],
+        [
+          "references/style-specs-20.md",
+          70,
+          909
+        ]
+      ]
+    },
+    "dark-keynote": {
+      "name_zh": "深色科技发布会",
+      "use_cases_zh": "产品发布、软件服务、演讲",
+      "file": "references/styles/dark-keynote.md",
+      "sha256": "006098cd023629bd44a6aea534828f0412bd157ae19b85fb4c35ab0b82868da7",
+      "source_sha256": "b0791b5e95f56bf46c621e6064d426ebbee810c7515fb87e951b73668a2a0d24",
+      "source_parts": [
+        [
+          "references/style-specs-20.md",
+          940,
+          13059
+        ]
+      ]
+    },
+    "living-screencast": {
+      "name_zh": "活态屏幕演示",
+      "use_cases_zh": "产品教程、功能发布、入门",
+      "file": "references/styles/living-screencast.md",
+      "sha256": "576715c9e9903cafda268c177520d2cc24be628c84122f5d3a3b0d1efc06f2ea",
+      "source_sha256": "02e8e5521fe1f553b0e58dacc2a556aea361dd5823e2ca0996963839d3c7d5c7",
+      "source_parts": [
+        [
+          "references/style-specs-20.md",
+          13095,
+          24554
+        ]
+      ]
+    },
+    "hologram-hud": {
+      "name_zh": "科幻全息界面",
+      "use_cases_zh": "规格解说、发布视频、展会",
+      "file": "references/styles/hologram-hud.md",
+      "sha256": "1647b2a0bd3e8e12be8e713b48b0f9c374d7ecf24d1e14e4fb4ff14b25e2e826",
+      "source_sha256": "81e2c6b0ede2cc211a8dd676417a1ce5efda278514f273c5249165e38ff34573",
+      "source_parts": [
+        [
+          "references/style-specs-20.md",
+          24585,
+          29515
+        ],
+        [
+          "references/style-specs-21.md",
+          67,
+          6889
+        ]
+      ]
+    },
+    "rubber-hose": {
+      "name_zh": "1930年代橡皮管动画",
+      "use_cases_zh": "食品饮料、复古广告、儿童",
+      "file": "references/styles/rubber-hose.md",
+      "sha256": "2e6e08cc798f1bb8dc497a85f4d294aa6656fd557843113e916ad4c2f1715520",
+      "source_sha256": "bf850f9cd22e68b2125fed00d1b9804e91479620b44420ba7ec50e570e472a94",
+      "source_parts": [
+        [
+          "references/style-specs-21.md",
+          6919,
+          19665
+        ]
+      ]
+    },
+    "cel-anime-80s": {
+      "name_zh": "1980年代赛璐璐动画",
+      "use_cases_zh": "音乐视频、游戏预告、怀旧",
+      "file": "references/styles/cel-anime-80s.md",
+      "sha256": "7934e774076bfb915a715235dfaa39eae069d40dd7b65eed323dc77ee6cca980",
+      "source_sha256": "1e16f5c6f90ebf09556ec94d37434400d309c978e00ee89e9d38dec476664eaf",
+      "source_parts": [
+        [
+          "references/style-specs-21.md",
+          19697,
+          28574
+        ],
+        [
+          "references/style-specs-22.md",
+          68,
+          3764
+        ]
+      ]
+    },
+    "scifi-toon": {
+      "name_zh": "科幻情景喜剧动画",
+      "use_cases_zh": "喜剧、科技品牌、社交短片",
+      "file": "references/styles/scifi-toon.md",
+      "sha256": "b2433cd34308b5f628f286ad7b4a9ffb37bf89045d3784929e374546014393fc",
+      "source_sha256": "9a720a57ce50dc554e9237e698a979cdf7311527e6e6a0dad803278dfe8ad2ce",
+      "source_parts": [
+        [
+          "references/style-specs-22.md",
+          3793,
+          16506
+        ]
+      ]
+    },
+    "midcentury-toon": {
+      "name_zh": "世纪中叶卡通",
+      "use_cases_zh": "设置指南、帮助中心、教程",
+      "file": "references/styles/midcentury-toon.md",
+      "sha256": "1d63286c7de5334b3b244f58f6ae79cab462cf752b5bc67f7ec7e560820caae0",
+      "source_sha256": "e73614b6f9e2f2e8ee279f4909da8429235b96f6d13a12345b6e57d5823c30b8",
+      "source_parts": [
+        [
+          "references/style-specs-22.md",
+          16540,
+          29059
+        ]
+      ]
+    },
+    "pixel-rpg": {
+      "name_zh": "16位像素角色扮演",
+      "use_cases_zh": "游戏预告、回顾、怀旧",
+      "file": "references/styles/pixel-rpg.md",
+      "sha256": "de47e276de376c3a4d8d5e6a73360331f100fe54b97c7e48f5710bf6db4f2b71",
+      "source_sha256": "f79fac0d9aed03d2a69f17a50b37adca2da84156b3fa525537761c507bcaea8e",
+      "source_parts": [
+        [
+          "references/style-specs-22.md",
+          29087,
+          29122
+        ],
+        [
+          "references/style-specs-23.md",
+          64,
+          11251
+        ]
+      ]
+    },
+    "hd-2d": {
+      "name_zh": "高清二维立体场景",
+      "use_cases_zh": "游戏预告、奇幻、叙事",
+      "file": "references/styles/hd-2d.md",
+      "sha256": "43fb13b1914e756c95e1d4c5171007ac9263190b1991455f12ca23a38d34e020",
+      "source_sha256": "bdc5ef4f60d8ba9ff6e5151391a6a62d8da4685d393c242699fd5c6188f0551a",
+      "source_parts": [
+        [
+          "references/style-specs-23.md",
+          11275,
+          23570
+        ]
+      ]
+    },
+    "microgame": {
+      "name_zh": "微游戏狂欢",
+      "use_cases_zh": "游戏预告、入门、社交短片",
+      "file": "references/styles/microgame.md",
+      "sha256": "ae400832042b2f95f5770f24f7627e38d11eaa754ebad4a48fbc76eb8280ff0c",
+      "source_sha256": "ad13d34bd06a65bef81b04f531c4f256bcc0bff4f229f976d52e07d5beef9dd5",
+      "source_parts": [
+        [
+          "references/style-specs-23.md",
+          23598,
+          29203
+        ],
+        [
+          "references/style-specs-24.md",
+          64,
+          6980
+        ]
+      ]
+    },
+    "game-show": {
+      "name_zh": "平面电视游戏秀",
+      "use_cases_zh": "科技时间线、年度回顾、综艺",
+      "file": "references/styles/game-show.md",
+      "sha256": "86d6545093b930e4c348a2c3abc6366d4c49319461136a36d164c65252666771",
+      "source_sha256": "cadee8f0ff8cfc206b49d852e5a0b15d7da432ad497fa8b19ac568ce386ff8e3",
+      "source_parts": [
+        [
+          "references/style-specs-24.md",
+          7008,
+          19460
+        ]
+      ]
+    },
+    "silent-film": {
+      "name_zh": "1920年代默片",
+      "use_cases_zh": "喜剧、复古品牌、无对白叙事",
+      "file": "references/styles/silent-film.md",
+      "sha256": "9054263a1ff08780e684157e030a79fdfe18c553b292494453803322cc68d477",
+      "source_sha256": "44633a4edd4ec6b84be809bd48b38503a75a71531112b3d28a52f27135012b20",
+      "source_parts": [
+        [
+          "references/style-specs-24.md",
+          19490,
+          29402
+        ],
+        [
+          "references/style-specs-25.md",
+          66,
+          1700
+        ]
+      ]
+    },
+    "backrooms": {
+      "name_zh": "阈限空间拾得录像",
+      "use_cases_zh": "恐怖、谜案、互动叙事、游戏预热",
+      "file": "references/styles/backrooms.md",
+      "sha256": "f28ee3511c9825658f043b84f9abab22482e8348c3e11fdd492d8b36aa945942",
+      "source_sha256": "2a3697a1ce37d0fbae3281220ae6154eeb9789233f1fae472d55ac169ba26fb4",
+      "source_parts": [
+        [
+          "references/style-specs-25.md",
+          1728,
+          14285
+        ]
+      ]
+    },
+    "brick-toy": {
+      "name_zh": "积木玩具",
+      "use_cases_zh": "玩具儿童、产品搭建、航天",
+      "file": "references/styles/brick-toy.md",
+      "sha256": "df0faef072ab9609cf31e0513d9f1ba0caeeb9d2eac6207ba626e6d61a2a88ae",
+      "source_sha256": "29b23e846951856b722a698a03c9458cfc17b4fc71d044f45d773acf2a742768",
+      "source_parts": [
+        [
+          "references/style-specs-25.md",
+          14313,
+          26842
+        ]
+      ]
+    },
+    "paper-popup": {
+      "name_zh": "立体纸艺书",
+      "use_cases_zh": "童书、游戏预告、叙事",
+      "file": "references/styles/paper-popup.md",
+      "sha256": "a7eb5cb29aead5a128b56009732c065021fcedcdf9ffdc8b9b89f2f16bd67c33",
+      "source_sha256": "8e5c0ca430fd96b75c4d9c2af92a87c84d4d1af8cda64280a189c51279e1ee9b",
+      "source_parts": [
+        [
+          "references/style-specs-25.md",
+          26872,
+          28559
+        ],
+        [
+          "references/style-specs-26.md",
+          66,
+          10434
+        ]
+      ]
+    },
+    "tilt-shift": {
+      "name_zh": "移轴微缩",
+      "use_cases_zh": "城市宣传、房产、交通",
+      "file": "references/styles/tilt-shift.md",
+      "sha256": "f426b960528f42f19bbf5f4236e1ef49cc2ffb0b3f31eaef4072e592b0210119",
+      "source_sha256": "131ae50c6bddd30922638cbd5f2fae5c047223360a3f6924b074b0db525a5c63",
+      "source_parts": [
+        [
+          "references/style-specs-26.md",
+          10463,
+          22467
+        ]
+      ]
+    },
+    "lowpoly-island": {
+      "name_zh": "低多边形等距岛屿",
+      "use_cases_zh": "游戏预告、世界构建、舒缓内容",
+      "file": "references/styles/lowpoly-island.md",
+      "sha256": "e41d8581d99f1ac7e59bfd343d49c9f0e42d1fc9177cbb7fb860cba3b542f798",
+      "source_sha256": "1ae7bcd6aa3d521f563d8905f8109842fd7252ff8b70c1bd18265105a8a450f9",
+      "source_parts": [
+        [
+          "references/style-specs-26.md",
+          22500,
+          29495
+        ],
+        [
+          "references/style-specs-27.md",
+          69,
+          5306
+        ]
+      ]
+    },
+    "glass-product": {
+      "name_zh": "玻璃产品渲染",
+      "use_cases_zh": "消费科技、美妆、产品发布",
+      "file": "references/styles/glass-product.md",
+      "sha256": "6826b3f7211e071a75771b7a02a17ba89c499e4e0801bb863d8a9d66fcf8966e",
+      "source_sha256": "630fa80cde0930154ba64f15bce5c8ee0c8dcf48d921253f8c7e3194712c8fb5",
+      "source_parts": [
+        [
+          "references/style-specs-27.md",
+          5338,
+          17478
+        ]
+      ]
+    }
+  }
+}
