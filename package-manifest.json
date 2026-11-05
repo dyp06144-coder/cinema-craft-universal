@@ -1,0 +1,386 @@
+{
+  "package": "cinema-craft-universal",
+  "version": "1.0.0-zh",
+  "build_date": "2026-11-05",
+  "language": "zh-CN",
+  "style_count": 59,
+  "file_count_excluding_this_manifest": 74,
+  "validation": {
+    "structural": "PASS",
+    "independent_scenarios": 6,
+    "affected_scenarios_retested": 2,
+    "real_media_services_tested": false
+  },
+  "files": [
+    {
+      "path": "SKILL.md",
+      "bytes": 7149,
+      "sha256": "50f5b1a7805ddbf3a9a4c6c68de41942ddd2387a685a8f9a14a004938a901148"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.txt",
+      "bytes": 1267,
+      "sha256": "9dc74e65be2484ffc9ee07c28958fa57143cecaf458fd2ae5586f780931e5e3d"
+    },
+    {
+      "path": "agents/openai.yaml",
+      "bytes": 369,
+      "sha256": "8473175fb8de452e10a16f5d761ce095f1d4853e4abbfc7319b5b32dc0798112"
+    },
+    {
+      "path": "agents/universal-prompt.md",
+      "bytes": 1443,
+      "sha256": "892c30c8c5b62a1988e0e5694bf43af5e148f80fad80f1d885ad9aebe0bb7ba1"
+    },
+    {
+      "path": "references/artifact-contracts.md",
+      "bytes": 4744,
+      "sha256": "63d7d6e34d94ee52c1cc20802fbbf7041b7d114f21abc3c3b58cbfe5bedb8eb9"
+    },
+    {
+      "path": "references/audio-postproduction.md",
+      "bytes": 7772,
+      "sha256": "6eb9c69e53f5fe31e60ef60ab3a45e5cb19564e4314edf30bab8bf1ac6139000"
+    },
+    {
+      "path": "references/characters-assets.md",
+      "bytes": 6519,
+      "sha256": "881ad037e8ee6590426e5e2094ad57303b67d249a674f9c77668bd5c4306fbca"
+    },
+    {
+      "path": "references/host-adapters.md",
+      "bytes": 4669,
+      "sha256": "1432b0b1889c16977c3b1b2af22e37dcefdddaecbd89c9cff232dab714cda9d5"
+    },
+    {
+      "path": "references/production.md",
+      "bytes": 6598,
+      "sha256": "a799afaf7c0cd0b1e4e7d925cd247ebcfe47c4ef53ff494a80c9937be31cf704"
+    },
+    {
+      "path": "references/runtime-control.md",
+      "bytes": 4550,
+      "sha256": "aa02a2878ff6f4c8d5285a1ac5b786c3a49606bc0dd59ff444e5fbf40bc59ffa"
+    },
+    {
+      "path": "references/source-map.md",
+      "bytes": 6429,
+      "sha256": "c9244684f75eaca616129f0fb5a2cd921f25a35ffcf9dc78a225c0dc93e0470f"
+    },
+    {
+      "path": "references/story-visual-development.md",
+      "bytes": 5342,
+      "sha256": "888a8a2e0caa1cf8aae74c922f974548f6cf5f2ef68ea22f465a413b308be20b"
+    },
+    {
+      "path": "references/style-index.md",
+      "bytes": 7274,
+      "sha256": "be2665ac8f64ddf92d41178b33ca829c030997fbc43c3d997453d68092b1dee4"
+    },
+    {
+      "path": "references/style-manifest.json",
+      "bytes": 30804,
+      "sha256": "00f40ba6c3836690223c7061d41af1adc703230b3cf7825168178a293d8b3711"
+    },
+    {
+      "path": "references/styles/archive-lighttable.md",
+      "bytes": 5257,
+      "sha256": "b54c224748fcf3b318d395b00269e965691bca646eef093453b6ac33ced6868c"
+    },
+    {
+      "path": "references/styles/art-deco.md",
+      "bytes": 5774,
+      "sha256": "b65041ad8ce66982f04d84ae9d748bd4df03ff8b75f8b74a7009e4d9740fc1a8"
+    },
+    {
+      "path": "references/styles/ascii-crt.md",
+      "bytes": 6072,
+      "sha256": "a3bcc14a44f710568cc0960268974bf8c1b0dc4d717353eb0e2e1a7b0a0d4a96"
+    },
+    {
+      "path": "references/styles/backrooms.md",
+      "bytes": 6411,
+      "sha256": "f28ee3511c9825658f043b84f9abab22482e8348c3e11fdd492d8b36aa945942"
+    },
+    {
+      "path": "references/styles/blueprint.md",
+      "bytes": 5951,
+      "sha256": "c7117cc621438468f42274f1020402a7e4497a07d664f19d7624099bd3f35f5d"
+    },
+    {
+      "path": "references/styles/brick-toy.md",
+      "bytes": 6270,
+      "sha256": "df0faef072ab9609cf31e0513d9f1ba0caeeb9d2eac6207ba626e6d61a2a88ae"
+    },
+    {
+      "path": "references/styles/briefing-board.md",
+      "bytes": 5118,
+      "sha256": "3ad6a7e36f155905ec37a8c4d387637865ff4cd19407371011bdfd2312f00251"
+    },
+    {
+      "path": "references/styles/caption-news.md",
+      "bytes": 4856,
+      "sha256": "6732e3da5ba7dd43685533a20f6edff607561c6e508f29f77b9cf28acb44b0cd"
+    },
+    {
+      "path": "references/styles/cel-anime-80s.md",
+      "bytes": 6294,
+      "sha256": "7934e774076bfb915a715235dfaa39eae069d40dd7b65eed323dc77ee6cca980"
+    },
+    {
+      "path": "references/styles/city-symphony.md",
+      "bytes": 5180,
+      "sha256": "454370773cae462e9941e254016e4291d1603a6a29d581f4daaca50b62910c7d"
+    },
+    {
+      "path": "references/styles/countdown.md",
+      "bytes": 5142,
+      "sha256": "cc1a46840f2821cac4860ab3811f9afc03acaaa6aef6699b421e358536065785"
+    },
+    {
+      "path": "references/styles/crayon-book.md",
+      "bytes": 5314,
+      "sha256": "d5564f5eb51de8be0a0db52a980a7f4648ba39e5fff9506198d247cc07870936"
+    },
+    {
+      "path": "references/styles/dark-keynote.md",
+      "bytes": 6373,
+      "sha256": "006098cd023629bd44a6aea534828f0412bd157ae19b85fb4c35ab0b82868da7"
+    },
+    {
+      "path": "references/styles/data-physical.md",
+      "bytes": 5220,
+      "sha256": "d160ee8ddf8e3958bc13ea40460ae06babdc307fceeca352c76c8f639135ee66"
+    },
+    {
+      "path": "references/styles/dataviz.md",
+      "bytes": 6448,
+      "sha256": "935b8df07553a780de698c056bbf35b88d1a53b1eab17ec59169052979f0de78"
+    },
+    {
+      "path": "references/styles/engraving.md",
+      "bytes": 5832,
+      "sha256": "efdceab01de89964e1955f060bbbae8b47ea7b7beeec68fb85712ca70bd10c5e"
+    },
+    {
+      "path": "references/styles/game-show.md",
+      "bytes": 6388,
+      "sha256": "86d6545093b930e4c348a2c3abc6366d4c49319461136a36d164c65252666771"
+    },
+    {
+      "path": "references/styles/glass-product.md",
+      "bytes": 6071,
+      "sha256": "6826b3f7211e071a75771b7a02a17ba89c499e4e0801bb863d8a9d66fcf8966e"
+    },
+    {
+      "path": "references/styles/halftone-dossier.md",
+      "bytes": 5945,
+      "sha256": "f61f199b86cbce33911e7e43979d3bd41744c0c283bb97a0e2bfdb2ade168930"
+    },
+    {
+      "path": "references/styles/hd-2d.md",
+      "bytes": 6383,
+      "sha256": "43fb13b1914e756c95e1d4c5171007ac9263190b1991455f12ca23a38d34e020"
+    },
+    {
+      "path": "references/styles/hologram-hud.md",
+      "bytes": 6513,
+      "sha256": "1647b2a0bd3e8e12be8e713b48b0f9c374d7ecf24d1e14e4fb4ff14b25e2e826"
+    },
+    {
+      "path": "references/styles/impasto.md",
+      "bytes": 5297,
+      "sha256": "9339b424d0543a8dcbb4b96f3e4c43ecc8b12ede1ebbf4184a295767ce59bf50"
+    },
+    {
+      "path": "references/styles/ink-wash.md",
+      "bytes": 5239,
+      "sha256": "8f1c7d3e715603b27673e2d8047bff52e5d4c2d98c0e03111b569ebebe9ac84a"
+    },
+    {
+      "path": "references/styles/iso-infographic.md",
+      "bytes": 6111,
+      "sha256": "4e7ea283145b5fa441d6469936e6d3c0ee058205034661636aad7c226e5deb79"
+    },
+    {
+      "path": "references/styles/kino-montage.md",
+      "bytes": 5345,
+      "sha256": "e73e5795c3b98bcee4842074c4fa537e48c458291184ec7a41e02a901422ec32"
+    },
+    {
+      "path": "references/styles/lidar-survey.md",
+      "bytes": 5240,
+      "sha256": "9a96bbd9a7742916fe753128f94d3b40a503ecc5412114386ee48def7d03443e"
+    },
+    {
+      "path": "references/styles/living-screencast.md",
+      "bytes": 6456,
+      "sha256": "576715c9e9903cafda268c177520d2cc24be628c84122f5d3a3b0d1efc06f2ea"
+    },
+    {
+      "path": "references/styles/lowpoly-island.md",
+      "bytes": 6449,
+      "sha256": "e41d8581d99f1ac7e59bfd343d49c9f0e42d1fc9177cbb7fb860cba3b542f798"
+    },
+    {
+      "path": "references/styles/microgame.md",
+      "bytes": 6638,
+      "sha256": "ae400832042b2f95f5770f24f7627e38d11eaa754ebad4a48fbc76eb8280ff0c"
+    },
+    {
+      "path": "references/styles/microscope.md",
+      "bytes": 5268,
+      "sha256": "debef0020f1115910f130329b086fff4e37740ca3f2f44d1977b505953e61a3a"
+    },
+    {
+      "path": "references/styles/midcentury-toon.md",
+      "bytes": 6620,
+      "sha256": "1d63286c7de5334b3b244f58f6ae79cab462cf752b5bc67f7ec7e560820caae0"
+    },
+    {
+      "path": "references/styles/news-package.md",
+      "bytes": 5365,
+      "sha256": "a1f6d1b487ff178b9da8d32ae135b9b9754b7150710295891a7ff68caf07316e"
+    },
+    {
+      "path": "references/styles/newsreel.md",
+      "bytes": 4949,
+      "sha256": "1c62d410125cbf2a74e6dcc309eda60aa78f53cf1a0a0c68dc5228ab078df7e6"
+    },
+    {
+      "path": "references/styles/one-line.md",
+      "bytes": 6129,
+      "sha256": "19d0089fb74fbd9be2cfa8c15128bd9bac34bd551c063452974ad7308562fac4"
+    },
+    {
+      "path": "references/styles/paper-lantern.md",
+      "bytes": 5766,
+      "sha256": "9af4bd1c953041a9724047f269be88e85c25bb8d4027b932fc50101501366fa1"
+    },
+    {
+      "path": "references/styles/paper-popup.md",
+      "bytes": 6566,
+      "sha256": "a7eb5cb29aead5a128b56009732c065021fcedcdf9ffdc8b9b89f2f16bd67c33"
+    },
+    {
+      "path": "references/styles/papercut-red.md",
+      "bytes": 5786,
+      "sha256": "7fb389020005ef22102f5e12c01c227e4fe81f9c6a73ad67cddaf1bd74f01a8a"
+    },
+    {
+      "path": "references/styles/pictogram-motion.md",
+      "bytes": 6141,
+      "sha256": "04152b63d9bfc40a9d048985720da1f5f386b8ccf6960a2574f79b813d53c6b3"
+    },
+    {
+      "path": "references/styles/pixel-rpg.md",
+      "bytes": 6486,
+      "sha256": "de47e276de376c3a4d8d5e6a73360331f100fe54b97c7e48f5710bf6db4f2b71"
+    },
+    {
+      "path": "references/styles/risograph.md",
+      "bytes": 5685,
+      "sha256": "96366efa08e194565262b8a7015e43ae83336f6daea227a0a003c92f22c98178"
+    },
+    {
+      "path": "references/styles/rubber-hose.md",
+      "bytes": 6411,
+      "sha256": "2e6e08cc798f1bb8dc497a85f4d294aa6656fd557843113e916ad4c2f1715520"
+    },
+    {
+      "path": "references/styles/satellite-briefing.md",
+      "bytes": 5164,
+      "sha256": "0942e11c0d80b047a70cc0930a06cad500f6fdc79f7efa2222398f892588c829"
+    },
+    {
+      "path": "references/styles/scifi-toon.md",
+      "bytes": 6290,
+      "sha256": "b2433cd34308b5f628f286ad7b4a9ffb37bf89045d3784929e374546014393fc"
+    },
+    {
+      "path": "references/styles/shadow-puppet.md",
+      "bytes": 5948,
+      "sha256": "532d14691dbd437420a2db06f55affcefa58cc57741a0a2ea380a406a81a2d73"
+    },
+    {
+      "path": "references/styles/silent-film.md",
+      "bytes": 6344,
+      "sha256": "9054263a1ff08780e684157e030a79fdfe18c553b292494453803322cc68d477"
+    },
+    {
+      "path": "references/styles/silkscreen-poster.md",
+      "bytes": 5868,
+      "sha256": "1c6761674ab1fcc814084648daff6f5061cabf1c8bf788ff33fb9b1c73223b4d"
+    },
+    {
+      "path": "references/styles/spy-titles.md",
+      "bytes": 5691,
+      "sha256": "88c093064da205e16b616f1ab5220b178762f1816d0eedb9515c715289266ae3"
+    },
+    {
+      "path": "references/styles/stained-glass.md",
+      "bytes": 5848,
+      "sha256": "931ae76e00473c9f1f1f49c54b76613a235eda426dbaac1fd12dfefb4df9a203"
+    },
+    {
+      "path": "references/styles/swiss-motion.md",
+      "bytes": 6010,
+      "sha256": "6554a4920d8fb68354d3a8cb6e7253ea48e5ebe19125087f9f76c1dda3bdc312"
+    },
+    {
+      "path": "references/styles/teardown.md",
+      "bytes": 5281,
+      "sha256": "1ecd76ed3a5d5e4578a3ce46e3f2111e4dbdec809848558102f00f6f91f3c2b2"
+    },
+    {
+      "path": "references/styles/telestrator.md",
+      "bytes": 5238,
+      "sha256": "2f2c17b90fd812c605570b647debfea85b80e27688573c660d7e0350a5de5663"
+    },
+    {
+      "path": "references/styles/tilt-shift.md",
+      "bytes": 6603,
+      "sha256": "f426b960528f42f19bbf5f4236e1ef49cc2ffb0b3f31eaef4072e592b0210119"
+    },
+    {
+      "path": "references/styles/ukiyoe.md",
+      "bytes": 5759,
+      "sha256": "1e26ccdaea7a9ce63642386b35cf423cb36adb2956cc266073446efca6451d65"
+    },
+    {
+      "path": "references/styles/urban-sketch.md",
+      "bytes": 6247,
+      "sha256": "049b30c80a897921afb63772c4dac824b93a8cd4815ca2f9474dfc8f4918427c"
+    },
+    {
+      "path": "references/styles/visual-investigation.md",
+      "bytes": 5252,
+      "sha256": "9194d965f3f7b53722643590361c7383f359d7d02b967ad8ee4f551c774355c2"
+    },
+    {
+      "path": "references/styles/watercolor.md",
+      "bytes": 5358,
+      "sha256": "549a7fe24ae72623c3174eb204bb28bfb9abb49c3f5f17950f4ec675476563b3"
+    },
+    {
+      "path": "references/styles/white-model.md",
+      "bytes": 5295,
+      "sha256": "0bb0a8542530063400aba4c753e459b2010f8c14097ca70312857b94f445dc38"
+    },
+    {
+      "path": "references/styles/whiteboard.md",
+      "bytes": 6202,
+      "sha256": "5b384443440c708725b751a85e73053d0484daab3098115268c074a33fcc8cc3"
+    },
+    {
+      "path": "references/styles/woodcut.md",
+      "bytes": 5866,
+      "sha256": "51ebe77dd8f2afaa586fa979ec0af55d5a4b3598bf20bf602b0391b2ef604c1e"
+    },
+    {
+      "path": "使用说明.md",
+      "bytes": 4493,
+      "sha256": "a260d1166a645777b623ed9c94bf965220ed258d16cdab17086eb7025e9982e0"
+    }
+  ]
+}
