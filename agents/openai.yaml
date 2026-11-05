@@ -1,0 +1,6 @@
+interface:
+  display_name: "Cinema Craft 通用电影制作"
+  short_description: "适用于画布与通用智能体的中文电影制作技能，涵盖剧本、59种风格、音画与后期"
+  default_prompt: "使用 $cinema-craft-universal，根据当前可用工具把我的创意推进为可审核的电影制作成果。"
+policy:
+  allow_implicit_invocation: true
